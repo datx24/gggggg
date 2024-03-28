@@ -1,0 +1,35 @@
+.heart{
+    position: relative;
+    width: 32px;
+    height: 32px;
+    top: -221px;
+    left: 1150px;
+}
+
+.cart{
+    position: relative;
+    width: 32px;
+    height: 32px;
+    top: -222px;
+    left: 1180px;
+}
+
+.store{
+    position: relative; 
+    right:3px;
+    top:39px;
+    width: 32px;
+    height: 32px;
+}
+
+.face{
+    position: relative;
+    top:27px;
+    right:20px;
+}
+
+.people{
+    position: relative;
+    top:43px;
+    right: 0px;
+}

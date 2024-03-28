@@ -1,0 +1,165 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .head h3{
+text-align: center;
+border-bottom: black;
+  }
+  /* Style container */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .pBold{
+    text-size-adjust: 20px;
+  }
+  /* Style form elements */
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .css-1gjpuh8 h3 span{
+    text-decoration: none;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ff3366;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .css-fpx25l{
+    color:black;
+  }
+  
+  button:hover {
+    background-color: #cc0052;
+  }
+  
+  p {
+    margin-top: 20px;
+    font-size: 0.9em;
+  }
+  
+  a {
+    color: #ff3366;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+/* Add CSS to display month and day inputs inline */
+.birthday-inputs {
+    display: flex;
+    align-items: center; /* Align items vertically */
+  }
+  
+  .birthday-inputs select,
+  .birthday-inputs input[type="number"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and border are included in width calculation */
+    height: 40px; /* Set height for consistency */
+  }
+  
+  /* Set fixed width for month and day input boxes */
+  #birthdayMonth,
+  #birthdayDay {
+    width: calc(50% - 5px); /* Subtract margin-right from total width */
+  }
+  
+  /* Add space between inputs */
+  #birthdayMonth {
+    margin-right: 5px;
+  }
+  .birthday-inputs {
+    display: flex;
+    align-items: baseline; /* Align baseline for consistent vertical alignment */
+  }
+  #birthdayMonth, #birthdayDay {
+    width: 80px; /* Adjust width as needed */
+    padding: 8px; /* Adjust padding as needed */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+  }
+  #birthdayDay {
+    margin-left: 10px; /* Adjust margin as needed */
+  }
+  label {
+    display: inline-block;
+    margin-bottom: 10px; /* Adjust as needed */
+  }
+ /* Add CSS styles here */
+ .container {
+  font-family: Arial, sans-serif; /* Specify font family */
+}
+.head {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.head h3 {
+  margin-bottom: 10px;
+}
+/* Styling for the bold text */
+.bold-text {
+  font-weight: normal;
+}
+/* Styling for the birthday cake icon */
+.birthday-icon {
+  margin-right: 5px; /* Add some space between the icon and text */
+}
+/* Styling for the checkbox label */
+.checkbox-label {
+  display: inline-block; /* Display labels inline */
+  margin-bottom: 10px; /* Add some space between checkboxes and other elements */
+  vertical-align: middle; /* Align labels vertically */
+}
+/* Styling for the "Join Now" button */
+button[type="submit"] {
+  width: 100%; /* Make the button full width of its container */
+  background-color: black; /* Change button background color to black */
+  color: white; /* Set button text color to white */
+  padding: 15px; /* Add padding to the button */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Add border radius to button */
+  cursor: pointer; /* Add cursor pointer on hover */
+  margin-top: 20px; /* Add some space between the button and the previous element */
+}
+button[type="submit"]:hover {
+  opacity: 0.8; /* Reduce opacity on button hover */
+}
+.p_bottom{
+  padding: 10px;
+}

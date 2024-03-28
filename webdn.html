@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sephora Beauty Insider Sign In</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/dist/boxicons.css">
+  <style>
+    /* Add CSS styles here */
+    .container {
+      font-family: Arial, sans-serif; /* Specify font family */
+    }
+    .head {
+      text-align: left; /* Align text to the left */
+      margin-bottom: 20px;
+    }
+    .head h3 {
+      margin-bottom: 10px;
+    }
+    button[type="submit"], .create-account-btn {
+      width: calc(50% - 5px); /* Adjust button width to occupy 50% of container width with margin between them */
+      padding: 8px 15px; /* Adjust padding for smaller size */
+      border: none; /* Remove button border */
+      border-radius: 20px; /* Add border radius to button */
+      cursor: pointer; /* Add cursor pointer on hover */
+      display: inline-block; /* Display as inline block */
+      text-align: center; /* Center text within button */
+    }
+    .create-account-btn {
+      background-color: white; /* Set button background color to white */
+      color: black; /* Set button text color to black */
+      border: 1px solid black; /* Add border to button */
+      text-decoration: none; /* Remove underline from anchor tag */
+      border-radius: 20px; /* Add border radius to button */
+      margin-right: 10px; /* Add margin to separate from other elements */
+    }
+    .create-account-btn:hover {
+      background-color: #f1f1f1; /* Change background color on hover */
+    }
+    .p-bold {
+      font-weight: bold;
+      margin-left: 10px; /* Add margin to separate from other elements */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div >
+        <h3>Sign In</h3>
+        <p>Sign in or create an account to enjoy FREE standard shipping on all orders.</p>
+    </div>
+    <form action="signin.php" method="post">
+      <input type="email" id="email" name="email" placeholder="Email Address" required>
+      <input type="password" id="password" name="password" placeholder="Password" required>
+      <button type="submit">Sign In</button>
+    </form>
+    <br>
+    <hr>
+    <p>By clicking "Sign In", you (1) agree to the current version of our <a href="#">TERMS OF USE</a>, and (2) have read Sephora's <a href="#">Privacy Policy</a></p>
+    <p class="p-bold">New to Sephora? <br> <a href="webdk.html" class="create-account-btn">Create Account</a></p>
+  </div>
+</body>
+</html>

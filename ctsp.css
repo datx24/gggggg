@@ -1,0 +1,54 @@
+.border_edit {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+main{
+    height: 3900px !important;
+}
+
+.bg_edit{
+   background-color:  #e00571 ;
+}
+
+.border_edit2{
+    border: 2px solid #ccc;
+}
+
+.border_edit3{
+    border-radius: 16px;
+}
+
+.border_edit4 {
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 18%;
+    height: 49px;
+    line-height: 42px;
+}
+
+.border_edit5 {
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 14%;
+    height: 49px;
+    line-height: 42px;
+}
+.fs_edit{
+    font-size: 12px;
+}
+.p_edit {
+    padding-top: 258px;
+}
+
+.border_edit5 {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 18%;
+    height: 34px;
+    line-height: 33px;
+}
+.radius_edit{
+    border-radius: 16px;
+    width: 42%;
+    
+}
